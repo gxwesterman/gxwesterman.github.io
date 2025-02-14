@@ -16,7 +16,7 @@ function Layout({ children } : { children: React.ReactNode }) {
             <div className="text-lg text-foreground/80">Software Developer</div>
           {children}
           </div>
-          <div className="flex items-center mx-auto my-5">
+          <div className="flex items-center mx-auto mt-auto mb-5">
             <Carousel />
           </div>
         </div>
