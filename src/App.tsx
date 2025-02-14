@@ -29,7 +29,7 @@ function App() {
             </div>
             <div className="space-y-10 lg:w-1/2 lg:pt-25 pb-20">
               <div className="w-fit h-fit rounded-md text-foreground/80">
-                <p>I currently work as a Software Developer at Nagios as a full-stack software developer.</p>
+                <p>I currently work as a Software Developer at <a className="underline text-foreground/90 hover:text-foreground" href="https://www.nagios.com/" target="_blank" rel="noreferrer">Nagios</a> as a full-stack software developer.</p>
                 <br/>
                 <p>I graduated from the U of M in 2023 with a BS in Computer Science.</p>
                 <br/>
