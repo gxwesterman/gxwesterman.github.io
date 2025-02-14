@@ -5,8 +5,8 @@ import React from 'react'
 function Layout({ children } : { children: React.ReactNode }) {
 
   return (
-    <div className="min-h-screen overflow-y-scroll">
-      <div className="antialiased max-w-3xl mx-2 mt-0 lg:mt-8 md:mx-auto lg:mx-auto min-h-full">
+    <div className="min-h-screen h-screen overflow-y-scroll">
+      <div className="antialiased max-w-3xl mx-2 mt-0 lg:pt-8 md:mx-auto lg:mx-auto min-h-full">
         <div className="flex flex-col min-h-[95vh]">
           <div className="flex-auto min-w-0 mt-0 md:mt-6 flex flex-col px-2 md:px-0">
             <div className="flex items-center justify-between w-full">
