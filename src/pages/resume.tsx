@@ -19,7 +19,7 @@ function Resume() {
         </div>
       </div>
       <div className="w-full h-fit rounded-md p-5 mb-5 bg-secondary/50 lg:flex gap-5 hover:scale-[1.02] transition-transform text-sm lg:text-base">
-        <div className="text-foreground/70 font-bold lg:min-w-20 lg:max-w-20 pb-2">Graduated May 2023</div>
+        <div className="text-foreground/70 font-bold lg:min-w-20 lg:max-w-20 pb-2">September 2020 - May 2023</div>
         <div className="space-y-2">
           <div className="font-bold">Bachelor of Science in Computer Science - U of M</div>
           <div className="ml-3 text-foreground/80">
