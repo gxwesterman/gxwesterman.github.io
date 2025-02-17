@@ -11,7 +11,7 @@ function Layout({ children } : { children: React.ReactNode }) {
           <div className="flex-auto min-w-0 mt-0 md:mt-6 flex flex-col px-2 md:px-0">
             <div className="flex items-center justify-between w-full">
               <Link to="/" className="text-2xl font-bold mt-5 text-foreground/90">Griffin Westerman</Link>
-              <Link to="/resume" className="text-foreground/80">resume</Link>
+              <Link to="/resume" className="text-foreground/80 hover:text-foreground transition-colors">resume</Link>
             </div>
             <div className="text-lg text-foreground/80">Software Developer</div>
           {children}
