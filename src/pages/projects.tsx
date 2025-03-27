@@ -17,7 +17,7 @@ function Resume() {
                 <span className="ml-4 text-foreground/50">March 2025</span>
               </h3>
               <div className="flex items-center gap-2">
-                <GithubButton link={"https://github.com/gxwesterman/gxwesterman.github.io"} />
+                <GithubButton link={"https://github.com/gxwesterman/g3.chat"} />
                 <WebsiteButton link={"https://g3-chat.vercel.app"} />
               </div>
             </div>
