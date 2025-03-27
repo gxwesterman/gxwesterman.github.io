@@ -6,7 +6,7 @@ export function LinkedinButton() {
 
   return (
     <a href="https://www.linkedin.com/in/griffin-westerman-499780279" target="_blank">
-      <Button variant="outline" size="icon" className="hover:cursor-pointer">
+      <Button variant="outline" size="icon" className="hover:cursor-pointer h-8 w-8">
         <Linkedin />
       </Button>
     </a>

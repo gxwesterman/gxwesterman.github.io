@@ -2,7 +2,8 @@ function Resume() {
 
   return (
     <div className="h-full">
-      <div className="mt-10 w-full h-fit rounded-md p-5 mb-5 bg-secondary/50 lg:flex gap-5 hover:scale-[1.02] transition-transform text-sm lg:text-base">
+      <div className="w-full border-t border-foreground/10 mt-5"></div>
+      <div className="mt-5 w-full h-fit rounded-md p-5 mb-5 bg-secondary/50 lg:flex gap-5 hover:scale-[1.02] transition-transform text-sm lg:text-base">
         <div className="text-foreground/70 font-bold lg:min-w-20 lg:max-w-20 pb-2">August 2023 - Present</div>
         <div className="space-y-2">
           <div className="font-bold">Full Stack Software Developer - Nagios</div>

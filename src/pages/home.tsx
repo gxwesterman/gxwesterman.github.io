@@ -16,8 +16,8 @@ function Home() {
         <p>I'm a classically trained cellist.</p>
       </div>
       <hr className="my-4 border-t border-foreground/20"></hr>
-      <div className="flex items-center gap-5">
-        <GithubButton />
+      <div className="flex items-center gap-2">
+        <GithubButton link={"https://github.com/gxwesterman"} />
         <LinkedinButton />
         <EmailButton />
       </div>
