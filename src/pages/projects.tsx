@@ -14,7 +14,7 @@ function Resume() {
             <div className="flex justify-between items-center">
               <h3 className="text-xl tracking-tighter">
                 G3 Chat
-                <span className="ml-2 text-foreground/80">March 2025</span>
+                <span className="ml-4 text-foreground/50">March 2025</span>
               </h3>
               <div className="flex items-center gap-2">
                 <GithubButton link={"https://github.com/gxwesterman/gxwesterman.github.io"} />
