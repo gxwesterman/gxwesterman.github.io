@@ -1,4 +1,3 @@
-import { ModeToggle} from '@/components/mode-toggle'
 import { GithubButton} from '@/components/github-button'
 import { LinkedinButton} from '@/components/linkedin-button'
 import { EmailButton } from '@/components/email-button'
@@ -21,7 +20,6 @@ function Home() {
         <GithubButton />
         <LinkedinButton />
         <EmailButton />
-        <ModeToggle />
       </div>
     </div>
   )
