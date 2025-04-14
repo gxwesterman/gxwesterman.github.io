@@ -5,7 +5,7 @@ export function EmailButton() {
 
   return (
     <a href="mailto:gxweste@gmail.com" target="_blank">
-      <Button variant="outline" size="icon" className="hover:cursor-pointer h-8 w-8">
+      <Button variant="ghost" size="icon" className="hover:cursor-pointer h-8 w-8">
         <Mail />
       </Button>
     </a>
