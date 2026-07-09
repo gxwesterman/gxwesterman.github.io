@@ -1,5 +1,6 @@
 import g3chat from '@/assets/projects/g3-chat.png'
 import cheli from '@/assets/projects/cheli.png';
+import glorp from '@/assets/projects/glorp.png';
 
 type Project = {
   title: string;
@@ -13,6 +14,23 @@ type Project = {
 }
 
 export const projects: Project[] = [
+  {
+    title: 'Glorp Chat',
+    subtitle: 'Minimalist, optimized AI chatbot',
+    description: `
+      Take two of my little chatbot. Added a bunch of features while focusing on keeping them optimized and focused. Syntax-highlighting, branching, auth and persistent storage, etc.
+    `,
+    date: 'July 2025',
+    website: 'https://glorp-chat.vercel.app',
+    github: 'https://github.com/gxwesterman/glorp',
+    badges: [
+      'NextJS',
+      'React',
+      'InstantDB',
+      'Vercel'
+    ],
+    img: glorp,
+  },
   {
     title: 'G3 Chat',
     subtitle: 'AI Chatbot meant to mimic T3 Chat',

@@ -3,7 +3,7 @@ import { GithubButton } from '@/components/github-button';
 import { WebsiteButton } from '@/components/website-button';
 import { projects } from "@/lib/projects";
 
-function Resume() {
+function Projects() {
   return (
     <div className="h-full">
       <section className="w-full pt-5">
@@ -39,4 +39,4 @@ function Resume() {
   )
 }
 
-export default Resume
+export default Projects
